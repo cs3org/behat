@@ -25,6 +25,7 @@ ENV COMPOSER_ALLOW_SUPERUSER 1
 
 COPY composer.json /root/composer.json
 COPY vendor-bin/ /root/vendor-bin/
+RUN composer self-update
 RUN composer install
 RUN composer bin behat install --no-progress
 
