@@ -1,0 +1,5 @@
+# Composer - used for PHP-based acceptance tests
+composer.lock
+vendor-bin/behat/vendor
+vendor-bin/behat/composer.lock
+vendor-php
