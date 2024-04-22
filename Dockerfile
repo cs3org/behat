@@ -16,7 +16,7 @@
 # granted to it by virtue of its status as an Intergovernmental Organization
 # or submit itself to any jurisdiction.
 
-FROM owncloudci/php:7.4
+FROM owncloudci/php:8.2
 
 WORKDIR /root
 
